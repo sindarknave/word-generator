@@ -1,0 +1,21 @@
+# Build artifacts
+build/
+dist/
+plugin.so
+plugin.dll
+plugin.dylib
+
+# Development environment
+.vscode/
+.DS_Store
+
+# Compiled Object files
+*.o
+*.a
+*.d
+*.slo
+*.lo
+*.obj
+
+# Dependency directories
+dep/ 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="203.2mm" height="128.5mm" version="1.1" viewBox="0 0 203.2 128.5">
+  <!-- Panel background -->
+  <rect x="0" y="0" width="203.2" height="128.5" fill="#F3F0E8" stroke="#000000" stroke-width="0.5"/>
+  
+  <!-- Module title -->
+  <text x="101.6" y="10" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#000000">HP 8006A WORD GENERATOR</text>
+  
+  <!-- Divider between Top (Global) and Bottom (Word Specific) sections -->
+  <line x1="5" y1="75" x2="198.2" y2="75" stroke="#555555" stroke-width="0.5"/>
+
+  <!-- TOP SECTION LABELS - REGROUPED -->
+  <!-- Area 1: Clock Control (Rate Knob y=30, Mode Switch y=55) -->
+\  <text x="40" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">CLOCK</text>
+
+  <!-- Area 2: Sequence Control (Sgl Cycle Button y=30, Sgl Trig In y=30, Run Mode Switch y=55) -->
+  <text x="35" y="50" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">SINGLE CYCLE</text>
+
+  <!-- Area 3: Word Param Control (Word Len Knob y=30, Len CV y=30, Mode Switch y=55, Mode Flip Trig y=55) -->
+  <text x="112" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">WORD LEN</text>
+  <text x="112" y="50" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">16/32 BIT</text>
+
+  <!-- Area 4: PRN Control (PRN Prob Knob y=80, PRN CV y=80) -->
+  <text x="25" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">PRN</text>
+  
+  <!-- Area 5: General Inputs (Clock In y=80, Reset In y=80) -->
+  <text x="65" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">CLK IN</text>
+  <text x="85" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">RESET</text>
+
+  <!-- Area 6: General Outputs (Clock Out y=80) -->
+  <text x="105" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">CLK OUT</text>
+  <text x="125" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">FIRST BIT</text>
+  <text x="145" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">LAST BIT</text>
+
+  <!-- Area 7: Main Outputs (Right Column: Word A y=30, B y=50, FIRST y=25, LAST y=45) -->
+  <text x="160" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">CV A</text>
+  <text x="160" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">CV B</text>
+  <text x="175" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">GATE A</text>
+  <text x="175" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">GATE B</text>
+
+  <!-- BOTTOM SECTION: WORD A -->
+  <text x="15" y="88" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">INV A</text>
+  <text x="40" y="88" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="3.5" fill="#000000">FLIP A TRIG</text>
+  <text x="120" y="85" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="5" font-weight="bold" fill="#000000">WORD A</text>
+  <!-- Word A Bit Numbers (y=106, start x=60, 8mm spacing) -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="3.5" fill="#000000" text-anchor="middle">
+    <text x="60" y="90">1</text> <text x="68" y="90">2</text> <text x="76" y="90">3</text> <text x="84" y="90">4</text>
+    <text x="92" y="90">5</text> <text x="100" y="90">6</text> <text x="108" y="90">7</text> <text x="116" y="90">8</text>
+    <text x="124" y="90">9</text> <text x="132" y="90">10</text> <text x="140" y="90">11</text> <text x="148" y="90">12</text>
+    <text x="156" y="90">13</text> <text x="164" y="90">14</text> <text x="172" y="90">15</text> <text x="180" y="90">16</text>
+  </g>
+
+  <!-- BOTTOM SECTION: WORD B -->
+  <text x="15" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="4" fill="#000000">INV B</text>
+  <text x="40" y="110" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="3.5" fill="#000000">FLIP B TRIG</text>
+  <text x="120" y="107" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="5" font-weight="bold" fill="#000000">WORD B</text>
+  <!-- Word B Bit Numbers (y=121, start x=60, 8mm spacing) -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="3.5" fill="#000000" text-anchor="middle">
+    <text x="60" y="112">1</text> <text x="68" y="112">2</text> <text x="76" y="112">3</text> <text x="84" y="112">4</text>
+    <text x="92" y="112">5</text> <text x="100" y="112">6</text> <text x="108" y="112">7</text> <text x="116" y="112">8</text>
+    <text x="124" y="112">9</text> <text x="132" y="112">10</text> <text x="140" y="112">11</text> <text x="148" y="112">12</text>
+    <text x="156" y="112">13</text> <text x="164" y="112">14</text> <text x="172" y="112">15</text> <text x="180" y="112">16</text>
+  </g>
+</svg>
