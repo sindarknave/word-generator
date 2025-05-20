@@ -4,7 +4,7 @@
   <rect x="0" y="0" width="203.2" height="128.5" fill="#F3F0E8" stroke="#000000" stroke-width="0.5"/>
   
   <!-- Module title -->
-  <text x="101.6" y="10" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#000000">HP 8006A WORD GENERATOR</text>
+  <text x="101.6" y="10" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="bold" fill="#000000">BOOGA WORD GENERATOR</text>
   
   <!-- Divider between Top (Global) and Bottom (Word Specific) sections -->
   <line x1="5" y1="75" x2="198.2" y2="75" stroke="#555555" stroke-width="0.5"/>
