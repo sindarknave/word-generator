@@ -12,10 +12,6 @@ A VCV Rack module inspired by the classic HP 8006A Word Generator test instrumen
 - Single-cycle trigger option
 - Adjustable word length
 
-## Installation
-
-Download the latest release from the [releases page](https://github.com/yourusername/word-generator/releases) and extract it to your Rack plugins folder.
-
 ## Building
 
 Clone this repository into the `plugins` directory of your Rack installation:
