@@ -1,4 +1,4 @@
-# HP 8006A Word Generator
+# Booga Word Generator
 
 A VCV Rack module inspired by the classic HP 8006A Word Generator test instrument. 
 
